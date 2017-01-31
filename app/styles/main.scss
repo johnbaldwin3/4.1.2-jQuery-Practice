@@ -1,0 +1,119 @@
+
+$grid-gutter-width: 0px;
+
+
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+#files {
+  border: 2px solid #444245;
+}
+
+.badgeT {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    margin: 0 auto;
+  float: right;
+  margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #393B3F;
+    border-radius: 10px;
+}
+.badge1 {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    margin: 0px auto;
+  float: right;
+  margin-right: 10px;
+    font-weight: bold;
+    color: #777;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    border: 1px solid #777;
+    background-color: rgba(119, 119, 119, 0);
+    border-radius: 10px;
+}
+
+$grid-gutter-width: 0px;
+
+ul {
+  list-style: none;
+}
+
+
+.drops{
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.options {
+  border-bottom: 1px solid #CFCFCF;
+}
+
+.menu-sub-options {
+  margin: 0;
+  padding: 0;
+}
+
+.titler > a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  height: 30px;
+  color: white;
+  padding-top: 5px;
+  font-size: 14px;
+  background: -webkit-linear-gradient(#8a8d94 3%, #8d96a5 8%, #6c6f75 49%, #4B4E52 80%);
+ background: -o-linear-gradient(#8a8d94 3%, #8d96a5 8%, #6c6f75 49%, #4B4E52 80%);
+ background: -moz-linear-gradient(#8a8d94 3%, #8d96a5 8%, #6c6f75 49%, #4B4E52 80%);
+ background: linear-gradient(#8a8d94 3%, #8d96a5 8%, #6c6f75 49%, #4B4E52 80%);
+
+}
+
+//style on anchor tag
+
+
+.titler > a:hover {
+  text-decoration: none;
+  color: #3E560A;
+  background: -webkit-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: -o-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: -moz-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+   .badgeT {
+     color:#fff;
+     background-color: #3E5706;
+   }
+}
+
+.selectedNav {
+  color: #3E560A;
+  background: -webkit-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: -o-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: -moz-linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+ background: linear-gradient(#afd47d 3%, #acd07d 8%, #86b345 49%, #6d9a2e 80%);
+}
+
+.options > a {
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 35px;
+  height: 30px;
+  width: 100%;
+  background-color: #E5E5E5;
+  }
+
+  .fa:before {
+      padding-right: 10px;
+      padding-left: 10px;
+  }
