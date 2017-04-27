@@ -11,7 +11,7 @@ $(".titler > a").click(function(event){
   event.preventDefault();
   console.log("working");
   $(".selectedNav").removeClass('selectedNav');
-  $(this).parent(".menu-sub-option").addClass("selectedNav");
+  $(".title").parent(".menu-sub-option").addClass("selectedNav");
   $(".titler").not(".selectedNav").find(".menu-sub-options").slideUp();
   $(this).siblings(".menu-sub-options").slideDown();
 
